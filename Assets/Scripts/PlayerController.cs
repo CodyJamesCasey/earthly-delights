@@ -3,6 +3,9 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+  [Tooltip("The initial force added to the arrow, when it is fired")]
+  public float projectileLaunchForce;
+
   public float speed;
   public float tilt;
 
@@ -14,10 +17,21 @@ public class PlayerController : MonoBehaviour
 
   void Update ()
   {
-    if (Input.GetButton("Fire1") && Time.time > nextFire) 
+    if (Input.GetButton("Fire1") && Time.time > nextFire)
     {
       nextFire = Time.time + fireRate;
-      Instantiate(arrow, shotSpawn.position, shotSpawn.rotation);
+      GameObject projectile = Instantiate(arrow, shotSpawn.position, shotSpawn.rotation) as GameObject;
+
+      // assigns the newly Instantiated arrow GameObject to be a child of the "Shot Spawn" GameObject
+      projectile.transform.parent = shotSpawn;
+
+      LaunchArrow(projectile);
     }
   }
+    // Function Launches the arrow in the direction of the 'X' axis, relative to the "Shot Spawn" GameObject
+    void LaunchArrow(GameObject launchingArrow)
+    {
+        Rigidbody2D arrowRB = launchingArrow.GetComponent<Rigidbody2D>();
+        arrowRB.AddForce(launchingArrow.transform.TransformDirection(Vector3.right*projectileLaunchForce));
+    }
 }
