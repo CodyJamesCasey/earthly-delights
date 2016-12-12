@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a17fd79d96d217145a04e6da9d974949
+timeCreated: 1481499817
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Outline
+  fontNames:
+  - Bubble Butt Outline
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

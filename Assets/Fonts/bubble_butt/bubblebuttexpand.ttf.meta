@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ab1ffee31d6c1b64480f88840af7ac51
+timeCreated: 1481499818
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Expanded
+  fontNames:
+  - Bubble Butt Expanded
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

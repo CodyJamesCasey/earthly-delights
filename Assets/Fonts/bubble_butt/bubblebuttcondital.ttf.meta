@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f900f66ce739860439b2df58cc53ff14
+timeCreated: 1481499818
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Condensed Italic
+  fontNames:
+  - Bubble Butt Condensed Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

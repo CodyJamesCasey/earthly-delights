@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3494a8d812017924687683a266c8f3cd
+timeCreated: 1481499817
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Leftalic
+  fontNames:
+  - Bubble Butt Leftalic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

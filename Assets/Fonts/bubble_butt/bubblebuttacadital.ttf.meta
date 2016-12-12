@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8f4538a72d683dc49b481a951e2dab60
+timeCreated: 1481499817
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Academy Italic
+  fontNames:
+  - Bubble Butt Academy Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 80d6acac2261bb54e94149a47bd938a0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

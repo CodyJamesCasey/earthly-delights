@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 168df5f4b7513d246a36ad913eb08db5
+timeCreated: 1481499817
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Condensed
+  fontNames:
+  - Bubble Butt Condensed
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

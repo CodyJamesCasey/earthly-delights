@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 992156e82dfa7684fa9a3a506df8bd01
+timeCreated: 1481499817
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bubble Butt Outline Italic
+  fontNames:
+  - Bubble Butt Outline Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
