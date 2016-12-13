@@ -6,6 +6,9 @@ public class PlayerController : MonoBehaviour
   [Tooltip("The initial force added to the arrow, when it is fired")]
   public float projectileLaunchForce;
 
+  [Tooltip("The speed in which the bow pivots")]
+  public float pivotSpeed;
+
   public float speed;
   public float tilt;
 
@@ -13,10 +16,11 @@ public class PlayerController : MonoBehaviour
   public Transform shotSpawn;
   public float fireRate;
 
-  private float nextFire;
+  private float nextFire, pivotDirection = 1f;;
 
   void Update ()
   {
+    transform.RotateAround(Vector3.zero, Vector3.up*pivotDirection, pivotSpeed * Time.deltaTime);
     if (Input.GetButton("Fire1") && Time.time > nextFire)
     {
       nextFire = Time.time + fireRate;
@@ -29,9 +33,14 @@ public class PlayerController : MonoBehaviour
     }
   }
     // Function Launches the arrow in the direction of the 'X' axis, relative to the "Shot Spawn" GameObject
-    void LaunchArrow(GameObject launchingArrow)
+    void LaunchArrow (GameObject launchingArrow)
     {
         Rigidbody2D arrowRB = launchingArrow.GetComponent<Rigidbody2D>();
         arrowRB.AddForce(launchingArrow.transform.TransformDirection(Vector3.right*projectileLaunchForce));
+    }
+
+    void ChangePivotDirection ()
+    {
+      pivotDirection = -pivotDirection;
     }
 }
